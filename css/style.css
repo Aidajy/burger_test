@@ -1,0 +1,636 @@
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Syne', sans-serif;*/
+*{
+    box-sizing: border-box;
+}
+div ul li p span a{
+    margin: 0px;
+    padding: 0px;
+}
+h1 h2 h3 h4 {
+    margin: 0px;
+}
+.container{
+    width: 1170px;
+    padding: 36px 0px 68px 0px;
+    margin: 0 auto;
+}
+body{
+    margin: 0px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient( 0deg,#531354, #e642ff );
+    height: 860px;
+}
+.left_header{
+    width: 743px;
+}
+.logo{
+    width: 153px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.menu_link{
+    position: relative;
+}
+.menu_link:hover{
+    color: rgb(255, 239, 162);
+}
+.menu_link:hover::before{
+    transform: scaleX(1);
+    transition: transform 0.25s;
+}
+.menu_link::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 239, 162);
+    position: absolute;
+    left: 0; bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    margin-left: 52px;
+}
+nav{
+    margin-left: 34px;
+   width: 540px;
+   float: right;
+   margin-top: 20px;
+}
+
+.tell{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+h2{
+    color: #4DFB31;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 700;
+    margin: 118px 0px 10px 0px;
+    
+}
+.Good_burger{
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: #fff;
+    margin: 0px;
+    width: 580px;
+    height: 272px;
+    margin-bottom: 19px;
+}
+.info_header{
+    color: #DEDEDE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    width: 519px;
+    line-height: 140%;
+    margin: 0px 0px 50px 0px;
+}
+.green_point{
+    color: #1E2F40;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 20px 45px;
+    background: #08D11C;
+    border-radius: 5px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 30px rgb(21, 255, 0);
+}
+
+.green_point:hover{
+    background: #34f1b9;
+    padding: 21px 46px;
+    margin-right: 28px;
+    color: #fff;
+    transition: .5s;
+    box-shadow: 0px 0px 30px rgb(36, 243, 105);
+}
+
+
+.bpttom_Lok{
+    display: flex;
+    padding: 16px 0px;
+    height: 58px;
+}
+.bottoom_header{
+    display: flex;
+    
+}
+.lokator{
+    margin-left: 0px;
+}
+.Moscow{
+ 
+}
+.abusa{
+    margin: 0px 0px 0px -46px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.block_right{
+    margin-top: -38px;
+    background: url('../img/bg.svg') no-repeat ;
+    float: right;
+    width: 432px;
+    height: 862px;
+}
+.BLOCK{
+    display: flex;
+}
+.slick-track{
+    display: flex;
+  
+}
+.click-list{
+    overflow: hidden ;
+}
+.corobka{
+    margin-left: -150px;
+    margin-top: 80px;
+    width: 740px;
+    height: 800px;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    height: 710px;
+    
+}
+.slider .slick-arrow{
+    font-size: 0;
+    border: none;
+    background: none;
+}
+.slider .slick-arrow.slick-prev{
+    display: none;
+}
+.slider .slick-arrow.slick-none{
+    display: none;
+}
+section{
+}
+.container_2{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 75px;
+}
+.img_burger3{
+    margin-top: 100px;
+}
+.new_text{
+    font-family: 'Syne', sans-serif;
+    font-size: 36px;
+    color: #000;
+    font-weight: 800;
+}
+.slider .slick-dots{
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    outline: none;
+    
+}
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 30px;
+}
+.slider .slick-dots button{
+    font-size: 0;
+    width: 97px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 0px;
+    opacity: 0.5;
+}
+.slider .slick-dots li.slick-active button{
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    opacity: 100;
+}
+.new_text{
+    margin-top: 0px;
+    font-size: 36px;
+    font-family: 'Syne', sans-serif;
+    margin-bottom: 70px;
+}
+.Us_BANER{
+    display: flex;
+    justify-content: space-between;
+}
+.Banner{
+    position: relative;
+    padding: 116px 152px 116px 50px;
+    margin-top: -400px;
+}
+.TextBanner1{
+    width: 86px;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+    padding: 5px 18px;
+    background: #35F381;
+    margin: 0px;
+}
+.TextBanner2{
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.TextBanner3{
+    width: 378px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: 8px 0px 0px 0px;
+
+}
+
+.TextBanner4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0px;
+}
+.TextBanner5{
+    width: 299px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 0px 35px 0px;
+}
+.TextBanner6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    border-radius: 23px;
+    border: 3px solid #fff;
+    color: #fff;
+    background: none;
+    padding: 15px 44px;
+    
+}
+.TextBanner6:hover{
+    background: #fff;
+    color: #000;
+    transition: .3s;
+}
+
+.Colla_group2{
+    display: flex;
+    margin-right: 87px;
+}
+.textColla{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 186px;
+    margin: 0px 0px 0px 7px;
+}
+.textColla2{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    width: 199px;
+    margin: 5px 0px 0px 0px;
+}
+.textColla-copy{
+    width: 183px;
+    margin-left: 7px;
+}
+.textColla-copy2{
+    margin-left: 7px;
+    width: 198px;
+}
+.Colla_group3{
+    width: 309px;
+    display: flex;
+}
+.textCollaCopy{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 240px;
+    margin: 0px 0px 0px 7px;
+}
+.Colla_group{
+    padding: 108px 0px 0px 0px;
+    width: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+/*меню*/
+
+.container3{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.left_menu{
+    width: 577px;
+}
+
+.Top_Left_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.Pointer{
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 58px;  
+}
+.Pointer:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+/*Слайдеры*/
+.corobka_bottom{
+    width: 269px;
+    height: 240px;
+    background:radial-gradient(circle, #FF8A00, #C70000) ;
+    margin-left: 0px;
+    overflow: hidden;
+}
+.Burger_bottom{
+    padding:13px 44px 0px 44px ;
+    justify-content: space-between;
+}
+.Burger_bottom2{
+    padding:20px 55px 0px 51px;
+    justify-content: space-between;
+    
+}
+.Burger_bottom3{
+    padding:42px 42px 0px 42px;
+    justify-content: space-between;
+}
+.Burger_bottom4{
+    padding: 19px 80px 0px 80px;
+    justify-content: space-between;
+}
+.slider_2{
+
+}
+.slider_item2{
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.slider_2 .slick-dots button{
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 0px;
+    opacity: 0.5;
+}
+.slider_2 .slick-dots{
+    justify-content: center;
+}
+.slider_2 .slick-dots li{
+    margin-left: 14px;
+}
+.slider_2 .slick-dots li.slick-active button{
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    opacity: 100;
+}
+.bottom_BurText{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    margin-bottom: 11px;
+}
+/*Слайдер пицца*/
+.Pizza_bottom{
+    padding:31px 58px 0px 58px;
+    justify-content: space-between;
+}
+.Pizza_bottom2{
+    padding:27px 60px 0px 60px;
+    justify-content: space-between;
+}
+.Pizza_bottom3{
+    padding:28px 58px 0px 58px;
+    justify-content: space-between;
+}
+.Pizza_bottom4{
+    padding:31px 58px 0px 58px;
+    justify-content: space-between;
+}
+.skidos{
+    display: flex;
+}
+.Many{
+    margin-left: -60px;
+    margin-top: 150px;
+}
+/*Верхние слайдеры пицы и бургера*/
+.Burger_Pizza_slaider{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 37px;
+}
+/*шаурма*/
+.Shaurma_bottom{
+    padding:26px 38px 0px 38px;
+    justify-content: space-between;
+}
+.Shaurma_bottom2{
+    padding:59px 28px 0px 28px;
+    justify-content: space-between;
+}
+.Shaurma_bottom3{
+    padding:40px 26px 0px 26px;
+    justify-content: space-between;
+}
+.Shaurma_bottom4{
+    padding:28px 31px 0px 31px;
+    justify-content: space-between;
+}
+.corobka_bottom2{
+    width: 269px;
+    height: 240px;
+    background:radial-gradient(circle, #BDFF00, #00D6D6) ;
+    margin-left: 0px;
+    overflow: hidden;
+}
+/*напидки*/
+.Cofi_bottom{
+    padding:40px 82px 0px 82px;
+    justify-content: space-between;
+}
+.Cofi_bottom2{
+    padding:40px 90px 0px 90px;
+    justify-content: space-between;
+}
+.Cofi_bottom3{
+    padding:25px 62px 0px 62px;
+    justify-content: space-between;
+}
+.Cofi_bottom4{
+    padding:51px 99px 0px 99px;
+    justify-content: space-between;
+}
+.shaurma_water{
+    display: flex;
+    justify-content: space-between;
+}
+/*Правя часть*/
+.right_menu{
+    width: 491px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.Kupon{
+    width: 470px;
+    height: 58px;
+    background: #E7E7E7;
+    border-radius: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    color: #8C8C8C;
+    padding-left: 27px;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+.Point_rihgt{
+    width: 216px;
+    height: 58px;
+    background: linear-gradient( 0deg,#6E00A1, #E542FF );
+    color: #fff;
+    border-radius: 50px;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-left: -216px;
+    border: none;
+}
+.Point_rihgt:hover{
+    background: linear-gradient( 0deg,#6E00A1, #9018A4 );
+}
+.topIDPoint{
+    justify-content: center;
+    padding-bottom: 100px;
+}
+/*текст*/
+.text_bottom_rigt{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 50px;
+    width: 472px;
+    padding: 0px 0px 70px 0px;
+}
+.buton{
+    padding: 8px 35px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    color: #000;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buton:hover{
+    background: #000;
+    color: #fff;
+    transition: .3s;
+}
+.buton2{
+    margin-left: 20px;
+}
+.butons{
+    display: flex;
+    width: 471px;
+    justify-content: center;
+}
+.Us_left_rigt{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background: #400749;
+}
+.caontainer4{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 111px;
+    padding-bottom: 119px;
+}
+.Block_footer{
+    margin-left: 136px;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.bottom_block_text{
+    color: #adadad;
+    opacity: 0.9;
+    margin-top: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.bottom_block_text2{
+    font-weight: bold;
+}
+.mecej{
+    display: flex;
+    padding-top: 15px;
+}
+.vk{
+    padding-left: 16px;
+}
+.footer_teext{
+    display: flex;
+    justify-content: space-between;
+}
